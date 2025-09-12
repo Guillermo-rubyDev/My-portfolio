@@ -1,0 +1,11 @@
+server/
+shared/
+node_modules/
+.env*
+*.log
+.DS_Store
+.local/
+attached_assets/
+design_guidelines.md
+drizzle.config.ts
+replit.md
