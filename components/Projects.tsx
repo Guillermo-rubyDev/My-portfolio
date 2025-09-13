@@ -74,7 +74,7 @@ export default function Projects() {
 
   const handleProjectClick = (project: Project, type: 'github' | 'live') => {
     const url = type === 'github' ? project.githubUrl : project.liveUrl;
-    console.log(`Opening ${project.title} - ${type}: ${url}`);
+    window.open(url, '_blank')
   };
 
   return (
