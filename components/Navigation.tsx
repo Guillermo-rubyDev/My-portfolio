@@ -60,7 +60,7 @@ export default function Navigation({ activeSection = "home", onSectionClick }: N
             variant="ghost"
             size="icon"
             data-testid="social-linkedin"
-            onClick={() => window.open('https://linkedin.com', '_blank')}
+            onClick={() => window.open('www.linkedin.com/in/guillermo-fernandez-a0580b210', '_blank')}
             className="hover-elevate"
           >
             <Linkedin size={20} />
