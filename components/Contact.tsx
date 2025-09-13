@@ -42,7 +42,7 @@ export default function Contact() {
 
   const socialLinks = [
     { name: "GitHub", icon: Github, url: "https://github.com/Guillermo-rubyDev", handle: "   " },
-    { name: "LinkedIn", icon: Linkedin, url: "www.linkedin.com/in/guillermo-fernandez-a0580b210", handle: "   " },
+    { name: "LinkedIn", icon: Linkedin, url: "https://www.linkedin.com/in/guillermo-fernandez-a0580b210", handle: "   " },
   ];
 
   return (
