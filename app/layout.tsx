@@ -10,12 +10,12 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Guillermo Fernandez - Full Stack Developer',
-  description: 'Full Stack Developer specializing in modern web technologies, React, Node.js, and cloud solutions. Experienced in building scalable applications and leading development teams.',
-  keywords: ['Full Stack Developer', 'React', 'Node.js', 'TypeScript', 'Web Development', 'Software Engineer'],
+  description: 'Full Stack Developer specializing in modern web technologies, Ruby on Rails, Next.js, React, Node.js, and cloud solutions. Experienced in building scalable applications and leading development teams.',
+  keywords: ['Full Stack Developer', 'Ruby on Rails', 'Next.js', 'React.js', 'Node.js', 'TypeScript', 'Web Development', 'Software Engineer'],
   authors: [{ name: 'Guillermo Fernandez' }],
   openGraph: {
     title: 'Guillermo Fernandez - Full Stack Developer',
-    description: 'Full Stack Developer specializing in modern web technologies, React, Node.js, and cloud solutions.',
+    description: 'Full Stack Developer specializing in modern web technologies, Ruby on Rails, Next.js, React, Node.js, and cloud solutions.',
     type: 'website',
   },
 }
