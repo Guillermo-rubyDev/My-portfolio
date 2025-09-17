@@ -7,7 +7,8 @@ import healthcareImage from '@assets/generated_images/ruby_healthcare.png';
 import assetCutImage from '@assets/generated_images/next.js_assetcut.png';
 import hootelBookingImage from '@assets/generated_images/hotel booking.png';
 import dashboardImage from '@assets/generated_images/business dashboard_rampcom.png';
-
+import aiSaaSImage from '@assets/generated_images/ai_service.png';
+import nftGameImage from '@assets/generated_images/nftgame.png';
 interface Project {
   id: string;
   title: string;
@@ -50,6 +51,15 @@ export default function Projects() {
       year: "2023"
     },
     {
+      id: "nftgame-platform",
+      title: "NFT Game Platform",
+      description: "Build NFT game website frontend with Next.js, TailwindCSS, GSAP, Web3.js",
+      technologies: ["Next.js", "TailwindCSS", "Web3.js", "GSAP"],
+      liveUrl: "https://datdrop.com/",
+      image: nftGameImage,
+      year: "2023"
+    },
+    {
       id: "hotelbooking",
       title: "Hotel Booking App",
       description: "A hotel booking platform is an online service that lets travelers search, compare, and reserve hotels in different locations.",
@@ -57,6 +67,15 @@ export default function Projects() {
       liveUrl: "https://www.sonder.com/",
       image: hootelBookingImage,
       year: "2022"
+    },
+    {
+      id: "aisaas",
+      title: "AI SaaS platform",
+      description: "Build AI chat service platform for business with React.js, Ruby on Rails",
+      technologies: ["React.js", "Ruby on Rails", "Stimulus", "Open AI api", "ChatGPT"],
+      liveUrl: "https://www.proprofschat.com",
+      image: aiSaaSImage,
+      year: "2021"
     },
     {
       id: "business_dashboard",
@@ -96,7 +115,7 @@ export default function Projects() {
               {projects.map((project, index) => (
                 <div
                   key={project.id}
-                  className={`relative flex items-center ${
+                  className={`absolute flex items-center ${
                     index % 2 === 0 ? 'justify-start' : 'justify-end'
                   }`}
                   data-testid={`timeline-item-${project.id}`}
@@ -113,7 +132,7 @@ export default function Projects() {
                           <img
                             src={project.image}
                             alt={project.title}
-                            className="w-full h-64 object-cover grayscale group-hover:grayscale-0 transition-all duration-300"
+                            className="w-full h-48 object-cover grayscale group-hover:grayscale-0 transition-all duration-300"
                             data-testid={`project-image-${project.id}`}
                           />
                           <div className="absolute inset-0 bg-primary/20 group-hover:bg-primary/10 transition-colors duration-300"></div>
