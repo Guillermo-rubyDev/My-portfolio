@@ -115,7 +115,7 @@ export default function Projects() {
               {projects.map((project, index) => (
                 <div
                   key={project.id}
-                  className={`absolute flex items-center ${
+                  className={`relative flex items-center ${
                     index % 2 === 0 ? 'justify-start' : 'justify-end'
                   }`}
                   data-testid={`timeline-item-${project.id}`}
